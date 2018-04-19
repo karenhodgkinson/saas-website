@@ -13,38 +13,31 @@
 <body>
 
 
-  <header>
-    <h1>visionSELL</h1>
+  <header class="island">
+    <h1 class="mega">visionSELL</h1>
     <nav>
-      <ul class="list-group-inline">
+      <ul class="list-group-inline kilo">
         <li><a href="index.html">Home</a></li>
         <li><a href="tour.html">About</a></li>
         <li><a href="pricing.html">Plans</a></li>
-        <li><a href="sign-up.html">Get Started</a></li>
+        <li><a class="get" href="sign-up.html">Get Started</a></li>
       </ul>
     </nav>
-    <div>
-      <h2 class="tera">Welcome to visionSELL!</h2>
-      <p>image</p>
-      <p>The e-commerce platform you've been dreaming of!</p>
-      <p>VisionSell takes care of the details, so you can focus on your business.</p>
-      <a href="#">get started</a>
-    </div>
   </header>
 
   <main>
-    <h2 class="tera">Ready to Start Selling?</h2>
-    <div>
-      <h3 class="giga" class="giga">Let’s get you started:</h3>
-      <div>
+    <div class="push">
+      <h2 class="giga text-center">Ready to Start Selling?</h2>
+      <p class="mega text-center">Let’s get you started:</p>
+      <div class="island">
         <form class="push-0" method="POST" action="https://formspree.io/kar.hodgk@gmail.com">
           <div class="push">
             <label for="name">Name</label>
-            <input id="name" required>
+            <input id="name" placeholder="e.g. John Smith" required>
           </div>
           <div class="push">
             <label for="email">Email</label>
-            <input id="email" type="email" placeholder="email@email.com" required>
+            <input id="email" type="email" placeholder="e.g. email@email.com" required>
           </div>
           <div class="push">
             <label for="size">Business Size</label>
@@ -55,29 +48,33 @@
             </select>
           </div>
           <div class="push">
-            <button class="btn btn-light mega" type="submit">Send message</button>
+            <label for="type">Business Type</label>
+            <select id="type">
+              <option>Products</option>
+              <option>Service</option>
+            </select>
+          </div>
+          <div class="push">
+            <button class="btn btn-light mega" type="submit">Start Selling!</button>
           </div>
         </form>
-
       </div>
     </div>
     <div>
-      <h3 class="giga">Need Help?</h3>
-      <p>Our help center is here for any and all questions!</p>
+      <h3 class="mega text-center">Need Help?</h3>
+      <p class="island">Our help center is here for any and all questions!</p>
       <a href="#">help center</a>
     </div>
   </main>
 
-  <footer>
+  <footer class="micro island">
     <p>Keep in Touch:</p>
     <p>social media icons</p>
     <p>logo</p>
-    <div>
-      <p>777 Street Drive
-      <p>Ottawa, ON</p>
-      <p>K1K 1K1</p>
-      <p>1-888-888-8888</p>
-    </div>
+    <p>777 Street Drive
+    <p>Ottawa, ON</p>
+    <p>K1K 1K1</p>
+    <p>1-888-888-8888</p>
     <p>privacy policy</p>
   </footer>
 

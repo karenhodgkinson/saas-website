@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 436.6 109.5" style="enable-background:new 0 0 436.6 109.5;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#231F20;}
+	.st1{fill:none;}
+	.st2{fill:#FFFFFF;}
+	.st3{font-family:'LucidaGrande-Bold';}
+	.st4{font-size:94px;}
+	.st5{fill:none;stroke:#FFFFFF;stroke-width:6.3179;stroke-miterlimit:10;}
+	.st6{fill:#231F20;stroke:#FFFFFF;stroke-width:8;stroke-miterlimit:10;}
+	.st7{fill:#231F20;stroke:#FFFFFF;stroke-width:5;stroke-miterlimit:10;}
+</style>
+<g>
+	<path class="st0" d="M424.6,109.5h-85.5c-6.6,0-12-5.4-12-12V12c0-6.6,5.4-12,12-12h85.5c6.6,0,12,5.4,12,12v85.5
+		C436.6,104.1,431.2,109.5,424.6,109.5z"/>
+	<rect x="363.4" y="18.9" class="st1" width="93.9" height="83.1"/>
+	<text transform="matrix(1 0 0 1 363.3666 91.3987)" class="st2 st3 st4">f</text>
+</g>
+<g>
+	<path class="st0" d="M97.5,109.5H12c-6.6,0-12-5.4-12-12V12C0,5.4,5.4,0,12,0h85.5c6.6,0,12,5.4,12,12v85.5
+		C109.5,104.1,104.1,109.5,97.5,109.5z"/>
+	<path class="st2" d="M78.6,29.2c0,0-24.5-11-24.5,13.7c0,0-16.6,0-30.5-14c0,0-5.8,7.6,3.3,16.7c0,0-1.9,2.4-5.1,1.2
+		c0,0-0.9,10.4,9.9,13.4c0,0,0.9,2.4-4.5,1.2c0,0,2.7,6.8,10.4,9.5c0,0,1.4,5.4-15.8,5.4c0,0,16.1,16.4,44.7-2.7
+		c0,0,19.7-16.8,14.3-34.6c0,0,7.1-4.2,7.1-7.1l-5.6,1.5l5.6-5.6L78.6,29.2z"/>
+</g>
+<g>
+	<path class="st0" d="M261.1,109.5h-85.5c-6.6,0-12-5.4-12-12V12c0-6.6,5.4-12,12-12h85.5c6.6,0,12,5.4,12,12v85.5
+		C273.1,104.1,267.7,109.5,261.1,109.5z"/>
+	<path class="st2" d="M242.9,47h-48.3c-3.3,0-6-2.7-6-6v-9.5c0-3.3,2.7-6,6-6h48.3c3.3,0,6,2.7,6,6v9.5
+		C248.8,44.3,246.2,47,242.9,47z"/>
+	<path class="st5" d="M196.9,23.2h44.9c3.9,0,7,3.2,7,7v44.9c0,3.9-3.2,7-7,7h-44.9c-3.9,0-7-3.2-7-7V30.2
+		C189.9,26.4,193,23.2,196.9,23.2z"/>
+	<circle class="st6" cx="219.3" cy="52.7" r="15"/>
+	<path class="st7" d="M242.7,41.5h-9.4c-1.8,0-3.2-1.5-3.2-3.2v-9.4c0-1.8,1.5-3.2,3.2-3.2h9.4c1.8,0,3.2,1.5,3.2,3.2v9.4
+		C246,40.1,244.5,41.5,242.7,41.5z"/>
+</g>
+</svg>
