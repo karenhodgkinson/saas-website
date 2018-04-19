@@ -4,10 +4,10 @@
   <meta charset="utf-8">
   <title>Get Started</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link href="modules.css" rel="stylesheet">
-  <link href="grid.css" rel="stylesheet">
-  <link href="type.css" rel="stylesheet">
-  <link href="main.css" rel="stylesheet">
+  <link href="css/modules.css" rel="stylesheet">
+  <link href="css/grid.css" rel="stylesheet">
+  <link href="css/type.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i" rel="stylesheet">
 </head>
 <body>
@@ -16,33 +16,55 @@
   <header>
     <h1>visionSELL</h1>
     <nav>
-      <ul>
-        <li>About</li>
-        <li>Plans</li>
-        <li>Get Started</li>
+      <ul class="list-group-inline">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="tour.html">About</a></li>
+        <li><a href="pricing.html">Plans</a></li>
+        <li><a href="sign-up.html">Get Started</a></li>
       </ul>
     </nav>
     <div>
-      <h2>Welcome to visionSELL!</h2>
+      <h2 class="tera">Welcome to visionSELL!</h2>
       <p>image</p>
       <p>The e-commerce platform you've been dreaming of!</p>
       <p>VisionSell takes care of the details, so you can focus on your business.</p>
-      <a>get started</a>
+      <a href="#">get started</a>
     </div>
   </header>
 
   <main>
-    <h2>Ready to Start Selling?</h2>
+    <h2 class="tera">Ready to Start Selling?</h2>
     <div>
-      <h3>Let’s get you started:</h3>
+      <h3 class="giga" class="giga">Let’s get you started:</h3>
       <div>
-        <p>form</p>
+        <form class="push-0" method="POST" action="https://formspree.io/kar.hodgk@gmail.com">
+          <div class="push">
+            <label for="name">Name</label>
+            <input id="name" required>
+          </div>
+          <div class="push">
+            <label for="email">Email</label>
+            <input id="email" type="email" placeholder="email@email.com" required>
+          </div>
+          <div class="push">
+            <label for="size">Business Size</label>
+            <select id="size">
+              <option>Individual</option>
+              <option>Small Business</option>
+              <option>Corporate</option>
+            </select>
+          </div>
+          <div class="push">
+            <button class="btn btn-light mega" type="submit">Send message</button>
+          </div>
+        </form>
+
       </div>
     </div>
     <div>
-      <h3>Need Help?</h3>
+      <h3 class="giga">Need Help?</h3>
       <p>Our help center is here for any and all questions!</p>
-      <a>help center</a>
+      <a href="#">help center</a>
     </div>
   </main>
 
