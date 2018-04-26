@@ -5,7 +5,7 @@ html {
 
 .btn {
   background-color: #fff;
-  border-color: #5CB6A4;
+  border-color: #5cb6a4;
   color: #242524;
 }
 
@@ -18,27 +18,28 @@ div, section {
 }
 
 h1 {
-  background-color: #2EB2B6;
+  background-color: #2eb2b6;
 }
 
 h2, h3 {
-  background-color: #ED5276;
+  background-color: #ed5276;
 }
 
 footer, .address {
-  background-color: #ED5276;
+  background-color: #ed5276;
 }
 
 .btn-get {
   background-color: #fff;
-  border-color: #ED5276;
+  border-color: #ed5276;
   color: #242524;
 }
 
 a {
-  border-color: #F4CEA4;
+  border-color: #f4cea4;
 }
 
 .more {
-  color: #2EB2B6;
+  color: #242524;
+  border-color: #2eb2b6;
 }
