@@ -3,30 +3,42 @@ html {
   background-color: #242524;
 }
 
+.btn {
+  background-color: #fff;
+  border-color: #5CB6A4;
+  color: #242524;
+}
+
 header {
   background-color: #fff;
 }
 
-div {
+div, section {
   background-color: #fff;
 }
 
-h2, h3 {
+h1 {
   background-color: #2EB2B6;
 }
 
-footer {
+h2, h3 {
   background-color: #ED5276;
 }
 
-.get {
+footer, .address {
   background-color: #ED5276;
+}
+
+.btn-get {
+  background-color: #fff;
+  border-color: #ED5276;
+  color: #242524;
 }
 
 a {
-  background-color: #F4CEA4;
+  border-color: #F4CEA4;
 }
 
-nav a {
-  background-color: #5CB6A4;
+.more {
+  color: #2EB2B6;
 }

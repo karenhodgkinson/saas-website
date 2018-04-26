@@ -12,9 +12,16 @@
 </head>
 <body>
 
-  <header>
-    <img class="img-flex island-2" src="icons/logosell.svg" alt="visionSELL">
-    <nav>
+  <ul class="skip-links">
+    <li><a href="#main">Jump to main content</a></li>
+    <li><a href="#nav">Jump to navigation</a></li>
+  </ul>
+
+  <header role="banner">
+    <div class="embed embed-1by1">
+      <img class="embed-item img-flex island-2" src="icons/logosell.svg" alt="visionSELL">
+    </div>
+    <nav role="navigation" id="nav" tabindex="0">
       <ul class="list-group-inline kilo text-center pad-b">
         <li><a class="btn" href="index.html">Home</a></li>
         <li><a class="btn" href="tour.html">About</a></li>
@@ -24,7 +31,7 @@
     </nav>
   </header>
 
-  <main class="wrapper gutter">
+  <main role="main" id="main" tabindex="0" class="gutter">
     <div class="push">
       <h2 class="giga text-center island">Choose a plan… We take care of the rest!</h3>
       <div class="island push">
@@ -187,7 +194,7 @@
     </div>
   </main>
 
-  <footer class="milli island">
+  <footer role="contentinfo" class="milli island">
     <p>Keep in Touch:</p>
     <img class="img-flex push" src="icons/social-media.svg" alt="social">
     <img class="img-flex island" src="icons/logosell.svg" alt="visionSELL">

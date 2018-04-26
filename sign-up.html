@@ -12,22 +12,28 @@
 </head>
 <body>
 
+  <ul class="skip-links">
+    <li><a href="#main">Jump to main content</a></li>
+    <li><a href="#nav">Jump to navigation</a></li>
+  </ul>
 
-  <header class="island">
-    <h1 class="mega">visionSELL</h1>
-    <nav>
-      <ul class="list-group-inline kilo">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="tour.html">About</a></li>
-        <li><a href="pricing.html">Plans</a></li>
-        <li><a class="get" href="sign-up.html">Get Started</a></li>
+  <header role="banner">
+    <div class="embed embed-1by1">
+      <img class="embed-item img-flex island-2" src="icons/logosell.svg" alt="visionSELL">
+    </div>
+    <nav role="navigation" id="nav" tabindex="0">
+      <ul class="list-group-inline kilo text-center pad-b">
+        <li><a class="btn" href="index.html">Home</a></li>
+        <li><a class="btn" href="tour.html">About</a></li>
+        <li><a class="btn" href="pricing.html">Plans</a></li>
+        <li><a class="btn btn-get" href="sign-up.html">Get Started</a></li>
       </ul>
     </nav>
   </header>
 
-  <main>
+  <main role="main" id="main" tabindex="0" class="gutter">
     <div class="push">
-      <h2 class="giga text-center">Ready to Start Selling?</h2>
+      <h2 class="giga text-center island">Ready to Start Selling?</h2>
       <p class="mega text-center">Let’s get you started:</p>
       <div class="island">
         <form class="push-0" method="POST" action="https://formspree.io/kar.hodgk@gmail.com">
@@ -60,22 +66,26 @@
         </form>
       </div>
     </div>
-    <div>
-      <h3 class="mega text-center">Need Help?</h3>
-      <p class="island">Our help center is here for any and all questions!</p>
-      <a href="#">help center</a>
+    <div class="push">
+      <h3 class="mega text-center island push-none">Need Help Getting Started?</h3>
+      <div class="center-content island">
+        <a class="btn" href="#">help center</a>
+      </div>
     </div>
   </main>
 
-  <footer class="micro island">
+  <footer role="contentinfo" class="milli island">
     <p>Keep in Touch:</p>
-    <p>social media icons</p>
-    <p>logo</p>
-    <p>777 Street Drive
-    <p>Ottawa, ON</p>
-    <p>K1K 1K1</p>
-    <p>1-888-888-8888</p>
-    <p>privacy policy</p>
+    <img class="img-flex push" src="icons/social-media.svg" alt="social">
+    <img class="img-flex island" src="icons/logosell.svg" alt="visionSELL">
+    <div class="address text-center">
+      <p class="push-none">777 Street Drive</p>
+      <p class="push-none">Ottawa, ON</p>
+      <p class="push-none">K1K 1K1</p>
+      <p class="push-none">1-888-888-8888</p>
+    <div class="address text-center pad-t">
+      <a class="more kilo" href="#">Privacy Policy</a>
+    </div>
   </footer>
 
 </body>
