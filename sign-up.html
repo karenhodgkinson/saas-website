@@ -41,29 +41,36 @@
             <legend>Personal Details</legend>
             <div class="push">
               <label for="name">Full Name</label>
-              <input id="name" type="text" placeholder="e.g. John Smith" required>
-              <p>Please list your First and Last names</p>
+              <input id="name" name="name" placeholder="e.g. John Smith" required>
             </div>
             <div class="push">
               <label for="email">Email</label>
               <input id="email" type="email" placeholder="e.g. email@email.com" required>
             </div>
           </fieldset>
+          <fieldset>
+            <legend>Business Details</legend>
             <div class="push">
-              <label for="size">Business Size</label>
-              <select id="size">
+              <label for="business-name">Business Name</label>
+              <input id="business-name" name="name" placeholder="e.g. John Smith" required>
+              <p>Please list your First and Last names</p>
+            </div>
+            <div class="push">
+              <label for="business-size">Business Size</label>
+              <select id="business-size">
                 <option>Individual</option>
                 <option>Small Business</option>
                 <option>Corporate</option>
               </select>
             </div>
-          <div class="push">
-            <label for="type">Business Type</label>
-            <select id="type">
-              <option>Products</option>
-              <option>Service</option>
-            </select>
-          </div>
+            <div class="push">
+              <label for="business-type">Business Type</label>
+              <select id="business-type">
+                <option>Products</option>
+                <option>Service</option>
+              </select>
+            </div>
+          </fieldset>
           <div class="push">
             <button class="btn btn-light mega" type="submit">Start Selling!</button>
           </div>
