@@ -37,22 +37,26 @@
       <p class="mega text-center">Let’s get you started:</p>
       <div class="island">
         <form class="push-0" method="POST" action="https://formspree.io/kar.hodgk@gmail.com">
-          <div class="push">
-            <label for="name">Name</label>
-            <input id="name" placeholder="e.g. John Smith" required>
-          </div>
-          <div class="push">
-            <label for="email">Email</label>
-            <input id="email" type="email" placeholder="e.g. email@email.com" required>
-          </div>
-          <div class="push">
-            <label for="size">Business Size</label>
-            <select id="size">
-              <option>Individual</option>
-              <option>Small Business</option>
-              <option>Corporate</option>
-            </select>
-          </div>
+          <fieldset>
+            <legend>Personal Details</legend>
+            <div class="push">
+              <label for="name">Full Name</label>
+              <input id="name" type="text" placeholder="e.g. John Smith" required>
+              <p>Please list your First and Last names</p>
+            </div>
+            <div class="push">
+              <label for="email">Email</label>
+              <input id="email" type="email" placeholder="e.g. email@email.com" required>
+            </div>
+          </fieldset>
+            <div class="push">
+              <label for="size">Business Size</label>
+              <select id="size">
+                <option>Individual</option>
+                <option>Small Business</option>
+                <option>Corporate</option>
+              </select>
+            </div>
           <div class="push">
             <label for="type">Business Type</label>
             <select id="type">
