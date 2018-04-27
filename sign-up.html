@@ -15,24 +15,31 @@
   <ul class="skip-links">
     <li><a href="#main">Jump to main content</a></li>
     <li><a href="#nav">Jump to navigation</a></li>
+    <li><a href="#signup">Jump to Sign-up Form</a></li>
   </ul>
 
   <header role="banner">
-    <div class="embed embed-1by1">
-      <img class="embed-item img-flex island-2" src="icons/logosell.svg" alt="visionSELL">
+    <div class="grid">
+      <div class="unit xs-1 l-1-4 gutter text-center">
+        <i class="icon i-192">
+          <img src="icons/logosell.svg" alt="visionSELL">
+        </i>
+      </div>
+      <div class="unit xs-1 l-3-4 center-content-vertical pad-t">
+        <nav role="navigation" id="nav" tabindex="0">
+          <ul class="list-group-inline kilo text-center">
+            <li><a class="btn gutter" href="index.html">Home</a></li>
+            <li><a class="btn gutter" href="tour.html">About</a></li>
+            <li><a class="btn gutter" href="pricing.html">Plans</a></li>
+            <li><a class="btn btn-get gutter" href="sign-up.html">Get Started</a></li>
+          </ul>
+        </nav>
+      </div>
     </div>
-    <nav role="navigation" id="nav" tabindex="0">
-      <ul class="list-group-inline kilo text-center pad-b">
-        <li><a class="btn" href="index.html">Home</a></li>
-        <li><a class="btn" href="tour.html">About</a></li>
-        <li><a class="btn" href="pricing.html">Plans</a></li>
-        <li><a class="btn btn-get" href="sign-up.html">Get Started</a></li>
-      </ul>
-    </nav>
   </header>
 
-  <main role="main" id="main" tabindex="0" class="gutter">
-    <section class="push">
+  <main role="main" id="main" tabindex="0" class="gutter wrapper">
+    <section id="signup">
       <h1 class="giga text-center island">Ready to Start Selling?</h1>
       <p class="mega text-center">Let’s get you started:</p>
       <div class="island">
@@ -47,13 +54,16 @@
               <label for="email">Email</label>
               <input id="email" type="email" placeholder="e.g. email@email.com" required>
             </div>
+            <div class="unit push">
+              <label for="birthday">Your Date of Birth</label>
+              <input id="birthday" type="date">
+            </div>
           </fieldset>
           <fieldset>
             <legend>Business Details</legend>
             <div class="push">
               <label for="business-name">Business Name</label>
-              <input id="business-name" name="name" placeholder="e.g. John Smith" required>
-              <p>Please list your First and Last names</p>
+              <input id="business-name" name="name" placeholder="e.g. John's Jumpsuits" required>
             </div>
             <div class="push">
               <label for="business-size">Business Size</label>
@@ -71,29 +81,37 @@
               </select>
             </div>
           </fieldset>
-          <div class="push">
+          <div class="unit push section">
+            <label for="comments" class="push">Please let us know a bit about you and what makes your business unique! Feel free to add any comments or questions you have for us!</label>
+            <textarea id="comments" class="push"></textarea>
+          </div>
+          <div class="push center-content">
             <button class="btn btn-light mega" type="submit">Start Selling!</button>
           </div>
         </form>
       </div>
-      <div class="push grid">
-        <div class="unit">
+      <div class="grid">
+        <div class="unit xs-1">
           <h2 class="mega text-center island push-none">Need Help Getting Started?</h2>
-          <div class="center-content island">
-            <a class="btn" href="#">help center</a>
+        </div>
+        <div class="unit unit-xs-hidden m-1">
+          <div class="embed embed-4by3">
+            <img class="embed-item" src="images/pug.jpg" alt="confused pug">
           </div>
         </div>
-        <div class="unit unit-xs-hidden">
-          <img class="img-flex" src="images/katya.jpg" alt="Katya and her cat, Catya">
+        <div class="island unit xs-1">
+          <p class="text-center">1-888-888-8888</p>
+          <p class="text-center">info@visionsell.com</p>
         </div>
       </div>
     </section>
   </main>
 
-  <footer role="contentinfo" class="milli island">
-    <p>Keep in Touch:</p>
-    <img class="img-flex push" src="icons/social-media.svg" alt="social">
-    <img class="img-flex island" src="icons/logosell.svg" alt="visionSELL">
+  <footer role="contentinfo" class="island center-content milli">
+    <p class="kilo">Keep in Touch:</p>
+    <i class="icon i-192">
+      <img class="img-flex" src="icons/social-media.svg" alt="social">
+    </i>
     <div class="address text-center">
       <p class="push-none">777 Street Drive</p>
       <p class="push-none">Ottawa, ON</p>

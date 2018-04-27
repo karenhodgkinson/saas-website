@@ -18,31 +18,39 @@
   </ul>
 
   <header role="banner">
-    <div class="embed embed-1by1">
-      <img class="embed-item img-flex island-2" src="icons/logosell.svg" alt="visionSELL">
+    <div class="grid">
+      <div class="unit xs-1 l-1-4 gutter text-center">
+        <i class="icon i-192">
+          <img src="icons/logosell.svg" alt="visionSELL">
+        </i>
+      </div>
+      <div class="unit xs-1 l-3-4 center-content-vertical pad-t">
+        <nav role="navigation" id="nav" tabindex="0">
+          <ul class="list-group-inline kilo text-center">
+            <li><a class="btn gutter" href="index.html">Home</a></li>
+            <li><a class="btn gutter" href="tour.html">About</a></li>
+            <li><a class="btn gutter" href="pricing.html">Plans</a></li>
+            <li><a class="btn btn-get gutter" href="sign-up.html">Get Started</a></li>
+          </ul>
+        </nav>
+      </div>
     </div>
-    <nav role="navigation" id="nav" tabindex="0">
-      <ul class="list-group-inline kilo text-center">
-        <li><a class="btn" href="index.html">Home</a></li>
-        <li><a class="btn" href="tour.html">About</a></li>
-        <li><a class="btn" href="pricing.html">Plans</a></li>
-        <li><a class="btn btn-get" href="sign-up.html">Get Started</a></li>
-      </ul>
-    </nav>
     <div class="push">
-      <h1 class="giga text-center push-none island">Say hello to visionSELL!</h1>
-      <img class="img-flex push" src="images/banner.jpeg" alt="visionSELL will make you smile">
-      <div class="gutter-2 push">
-        <p>The e-commerce platform you've been dreaming of!</p>
-        <p>VisionSell takes care of the details, so you can focus on your business.</p>
+      <h1 class="giga text-center push-none island">The e-commerce platform you've been dreaming of!</h1>
+      <div>
+        <figure>
+          <div class="embed embed-16by9">
+            <img class="embed-item zindex-1" src="images/banner.jpeg" alt="visionSELL will make you smile">
+          </div>
+          <p>VisionSell takes care of the details, so you can focus on your business.</p>
+        </figure>
       </div>
       <div class="center-content">
         <a class="btn btn-get push" href="sign-up.html">get started</a>
       </div>
     </div>
   </header>
-
-  <main role="main" id="main" tabindex="0" class="gutter">
+  <main role="main" id="main" tabindex="0" class="gutter wrapper">
     <h2 class="mega text-center island-1-2">The visionSELL difference:</h2>
     <section>
       <ul class="kilo list-group gutter-1-2">
@@ -128,10 +136,11 @@
     </section>
   </main>
 
-  <footer role="contentinfo" class="milli island">
-    <p>Keep in Touch:</p>
-    <img class="img-flex push" src="icons/social-media.svg" alt="social">
-    <img class="img-flex island" src="icons/logosell.svg" alt="visionSELL">
+  <footer role="contentinfo" class="island center-content milli">
+    <p class="kilo">Keep in Touch:</p>
+    <i class="icon i-192">
+      <img class="img-flex" src="icons/social-media.svg" alt="social">
+    </i>
     <div class="address text-center">
       <p class="push-none">777 Street Drive</p>
       <p class="push-none">Ottawa, ON</p>
